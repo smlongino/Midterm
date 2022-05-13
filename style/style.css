@@ -70,18 +70,21 @@
     font-size:1.1rem;
 
 }
-.article-text{
+.article-text p{
     padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 /* article-content is for individual blog pages only */
-.article-content{
+.article-content p{
 
     margin-left: 150px;
     margin-right: 150px;
     text-align: justify;
     text-justify: inter-word;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 /* About and Portfolio pages */
@@ -104,16 +107,14 @@
     width: 50%;
 }
 
-#about-text{
+#about-text p{
 
     text-align: center;
     margin-left: 150px;
     margin-right: 150px;
-}
-p{
     font-family: Arial, Helvetica, sans-serif;
-    
 }
+
 a{
     font-family: Arial, Helvetica, sans-serif;
     color:#6C733D;
