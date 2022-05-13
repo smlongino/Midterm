@@ -72,9 +72,9 @@
 
 /* article-content is for individual blog pages only */
 .article-content{
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-bottom: 50px;
+
+    margin-left: 150px;
+    margin-right: 150px;
     text-align: justify;
     text-justify: inter-word;
 }
