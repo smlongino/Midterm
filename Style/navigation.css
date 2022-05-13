@@ -1,8 +1,8 @@
 #navigation{
-    font-size: .9rem;
+    font-size: 1rem;
     background-color: #6C733D;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px;
     
 
 }
@@ -11,5 +11,9 @@
     text-decoration: none;
     color: rgb(251, 252, 249);
 
+}
+
+.nav-buttons:hover{
+color: rgb(174, 180, 175);
 }
 

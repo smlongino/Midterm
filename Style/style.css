@@ -1,4 +1,5 @@
 
+/* header elements */
 #header {
     height: 50px;
     display: grid;
@@ -16,39 +17,40 @@
 #hero-text{
     color: #373b1f;
     text-align: center;
-    padding-top: 50px;
-    font-size: 1.9rem;
+    padding-top: 60px;
+    font-size: 2rem;
     font-family: 'Amatic SC', cursive;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
 }
 #hero-subtext{
     color: #373b1f;
     text-align: center;
     padding-top: 8px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-family: 'Open Sans', sans-serif;
 }
 
 #content{
     width: 70%;
-    height: 1000px;
+    height: 500px;
     display: grid;
     gap: 4%;
     padding: 20px;
     margin: 0 auto;
     position: relative;
-    top: -150px;
+    top: -160px;
     background-color: white;
-    
+
 }
+
+/* Index and Blogs page layout*/
 .article-block{
 
     background-color: white;
     border: 1px solid grey;
+    padding: 30px;
 }
-.article-text{
 
-}
 .article-title{
     
     font-family: 'Amatic SC', cursive;
@@ -59,14 +61,34 @@
 .date{
     color: #373b1f;
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+    font-size:1.1rem;
 
 }
+.article-text{
+    padding-right: 50px;
+
+}
+
+/* article-content is for individual blog pages only */
+.article-content{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* About and Portfolio pages */
+
+/* .title is also for the title on the individual blog pages */
 .title{
     font-family: 'Amatic SC', cursive;
     color: #373b1f;
     letter-spacing: 5px;
     font-size: 1.2rem;
     text-align: center;
+    padding:20px;
 
 }
 
@@ -78,9 +100,20 @@
 }
 
 #about-text{
+
     text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
     
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#6C733D;
+
+}
+a:hover{
+    color:  #7fdb6f;
 }
