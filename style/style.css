@@ -34,7 +34,6 @@
 
 #content{
     width: 70%;
-    /* height: 500px; */
     display: grid;
     gap: 4%;
     padding: 20px;
@@ -74,6 +73,8 @@
 .article-text p{
     padding-right: 50px;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    
 
 }
 
@@ -85,6 +86,7 @@
     text-align: justify;
     text-justify: inter-word;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
     
 }
 
@@ -114,6 +116,7 @@
     margin-left: 150px;
     margin-right: 150px;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
 
 a{
